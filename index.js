@@ -15,3 +15,4 @@ app.use("/service", router);
 app.listen(9096, (req, res) => {
   console.log("server started");
 });
+module.exports=app;
